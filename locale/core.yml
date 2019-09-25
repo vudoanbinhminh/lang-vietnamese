@@ -321,6 +321,7 @@ core:
       discussion_renamed_text: "{username} đã thay đổi tiêu đề"
       empty_text: Không có thông báo
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      mark_as_read_tooltip: Đánh dấu đã đọc
       title: => core.ref.notifications
       tooltip: => core.ref.notifications
 
