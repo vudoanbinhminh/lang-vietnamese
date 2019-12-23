@@ -2,7 +2,7 @@ reflar-level-ranks:
   admin:
     settings:
       title: Thiết lập Level Ranks
-      levelText: Nhập văn bản sẽ được hiển thị cho các điểm (VD: Xếp hạng, Cấp độ)
+      levelText: Nhập văn bản sẽ được hiển thị cho các điểm
   forum:
     desc:
       expText: EXP
