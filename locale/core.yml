@@ -151,6 +151,7 @@ core:
       delete_posts_forever_label: Xóa bài viết mãi mãi
       delete_posts_label: Xóa bài viết
       edit_posts_label: Chỉnh sửa bài viết
+      edit_users_label: Chỉnh sửa thành viên
       global_heading: Toàn cục
       moderate_heading: Quản trị
       new_group_button: Thêm nhóm mới
