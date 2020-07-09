@@ -298,6 +298,7 @@ core:
       cannot_start_discussion_button: Không thể tạo thảo luận
       mark_all_as_read_confirmation: "Bạn chắc chắn muốn đánh dấu đã đọc tất cả chứ?"
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
+      meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Làm mới
       start_discussion_button: => core.ref.start_a_discussion
 
