@@ -119,7 +119,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('kvothe-pipetables', function () {
+flarum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('tianya-pipetables', function () {
   Object(flarum_extend__WEBPACK_IMPORTED_MODULE_1__["extend"])(flarum_components_Post__WEBPACK_IMPORTED_MODULE_2___default.a.prototype, 'config', function (isInitialized) {
     function addDataLabelsToTable(table) {
       var labels = [];
