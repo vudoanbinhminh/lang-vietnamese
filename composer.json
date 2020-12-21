@@ -3,9 +3,21 @@
     "type": "flarum-extension",
     "description": "Vietnamese language pack.",
     "keywords": ["locale", "vietnam", "vietnamese"],
+    "type": "flarum-extension",
     "license": "MIT",
+    "authors": [
+     {
+      "name": "Luat Dolphin",
+      "email": "luatdolphinn@gmail.com",
+      "homepage": "https://www.thiennhaimobi.ga/"
+     }
+    ],
+  "support": {
+    "source": "https://github.com/Littlegolden/flarum-lang-japanese",
+    "issues": "https://github.com/luatdolphin/lang-vietnamese/issues"
+  },
     "require": {
-        "flarum/core": "^0.1.0-beta.10"
+        "flarum/core": "^0.1.0-beta.15"
     },
 	"autoload": {
     "psr-4": {
