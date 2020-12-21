@@ -102,12 +102,10 @@ core:
       mail_mailgun_domain_label: Tên miền
       mail_mailgun_region_label: Khu vực
       mail_mailgun_secret_label: Khóa bí mật
-      mail_mandrill_secret_label: Khóa bí mật
       mail_password_label: => core.ref.password
       mail_port_label: Cổng gửi đi
       mail_username_label: => core.ref.username
       mailgun_heading: Thiết lập Mailgun
-      mandrill_heading: Thiết lập Mandrill
       not_sending_message: Forum hiện không gửi được email. Có thể là lỗi do trình điều khiển được chọn, hoặc do cấu hình.
       smtp_heading: Thiết lập SMTP
       submit_button: => core.ref.save_changes
