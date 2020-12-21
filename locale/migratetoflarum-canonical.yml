@@ -1,0 +1,21 @@
+migratetoflarum-canonical:
+    admin:
+        settings:
+            step:
+                how_to: Cách bật chuyển hướng canonical
+                check_config_url: "Kiểm tra xem url được xác định trong config.php có phải là canonical URL ưa thích của bạn không (hiện tại: {url})"
+                admin_on_canonical: Truy cập bảng quản trị qua canonical URL
+                enable_temporary: Bật chuyển hướng tạm thời và kiểm tra mọi thứ hoạt động
+                enable_permanent: Bật chuyển hướng vĩnh viễn
+                suggestions: Các đề xuất khác mà tiện ích mở rộng này không thực thi hoặc bao gồm
+                use_https: Sử dụng HTTPS canonical URL
+                use_hsts: Sử dụng HSTS để ngăn chặn các cuộc tấn công hạ cấp
+
+            field:
+                status: Loại chuyển hướng
+                wrong_url: Cài đặt tiện ích mở rộng sẽ xuất hiện khi bạn truy cập diễn đàn của mình qua canonical URL
+
+            option:
+                disabled: Đã tắt (tiện ích mở rộng sẽ không có bất kỳ hoạt động gì)
+                302: 302 (Chuyển hướng tạm thời, cho kiểm tra)
+                301: 301 (Chuyển hướng vĩnh viễn, cho trang chính thức)
