@@ -1,0 +1,7 @@
+clarkwinkelmann-first-post-approval:
+    admin:
+        permissions:
+            bypass: Đăng mà không cần phê duyệt bài đầu tiên
+        settings:
+            discussionCount: Số lượng các cuộc thảo luận đầu tiên cần phê duyệt
+            postCount: Số lượng bài viết đầu tiên cần phê duyệt
