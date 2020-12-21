@@ -45,6 +45,8 @@ core:
       home_page_text: "Chọn trang hiển thị khi user truy cập lần đầu tiên vào diễn đàn. Nếu nhập vào, được dùng để hiển thị thay thế trang mặc định."
       saved_message: Lưu thông tin thành công.
       show_language_selector_label: Hiện chọn ngôn ngữ
+      slug_driver_heading: "Trình điều khiển Slug: {model}"
+      slug_driver_text: Chọn một trình điều khiển để sử dụng cho slug mô hình này.
       submit_button: => core.ref.save_changes
       title: Cơ bản
       welcome_banner_heading: Lời chào
