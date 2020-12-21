@@ -228,8 +228,10 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "Bạn chưa lưu bài. Hủy bài viết nháp nhé?"
+      edited_message: Chỉnh sửa của bạn đã được thực hiện.
       post_link: "Bài #{number} trong {discussion}"
       submit_button: => core.ref.save_changes
+      view_button: => core.ref.view
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:
@@ -237,7 +239,7 @@ core:
       discard_confirmation: "Bạn chưa trả lời. Hủy bài viết nháp nhé?"
       posted_message: Bài đã được đăng.
       submit_button: Gửi phản hồi
-      view_button: Xem
+      view_button: => core.ref.view
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
@@ -601,6 +603,7 @@ core:
     start_a_discussion: Thảo luận mới
     username: Tên đăng nhập
     users: Thành viên                                 # Referenced by flarum-statistics.yml
+    view: Xem
     write_a_reply: Phản hồi...
     you: Bạn                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
