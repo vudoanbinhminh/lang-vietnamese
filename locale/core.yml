@@ -153,6 +153,7 @@ core:
       basics_title: => core.admin.basics.description
       categories:
         authentication: Xác thực
+        core: Cấu hình lõi
         discussion: Thảo luận
         feature: Tính năng
         formatting: Định dạng
@@ -580,8 +581,11 @@ core:
       subject: Email kiểm tra từ Forum
       body: |
         Hey {username}!
+        
         Đây là email kiểm tra để xác nhận rằng cấu hình email Diễn đàn của bạn đang hoạt động bình thường.
+        
         Nếu đây là bạn, email này có nghĩa là cấu hình của bạn hoạt động!
+        
         Nếu đây không phải là bạn, vui lòng bỏ qua email này.
 
   ##
