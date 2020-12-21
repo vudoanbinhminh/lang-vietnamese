@@ -8,10 +8,19 @@ Gói ngôn ngữ được tương thích với những thành phần mở rộng
 
 - [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 15](https://github.com/flarum/core/releases/tag/v0.1.0-beta.15)
   - Phần mở rộng:
-    - [Akismet](https://github.com/flarum/akismet) [0.1.0 Beta 9](https://github.com/flarum/akismet/releases/tag/v0.1.0-beta.9)
-    - [Approval](https://github.com/flarum/approval) [0.1.0 Beta 8](https://github.com/flarum/approval/releases/tag/v0.1.0-beta.8)
+    - [Akismet](https://github.com/flarum/akismet) [0.1.0 Beta 15](https://github.com/flarum/akismet/releases/tag/v0.1.0-beta.15)
+    - [Approval](https://github.com/flarum/approval) [0.1.0 Beta 15](https://github.com/flarum/approval/releases/tag/v0.1.0-beta.15)
+    - [Author Change](https://github.com/clarkwinkelmann/flarum-ext-author-change) [0.2.1](https://github.com/clarkwinkelmann/flarum-ext-author-change/releases/tag/0.2.1)
+    - [BBCode](https://github.com/flarum/bbcode) [0.1.0 Beta 15](https://github.com/flarum/bbcode/releases/tag/v0.1.0-beta.15)
+    - [Canonical Url](https://github.com/migratetoflarum/canonical) [0.2.3](https://github.com/migratetoflarum/canonical/releases/tag/0.2.3)
+    - [Create User Modal](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal) [1.2.0](https://github.com/clarkwinkelmann/flarum-ext-create-user-modal/releases/tag/1.2.0)
+    - [Discussion views](https://github.com/MichaelBelgium/flarum-discussion-views) [5.0.0](https://github.com/MichaelBelgium/flarum-discussion-views/releases/tag/v5.0.0)
+    - [Emoji](https://github.com/flarum/emoji) [0.1.0 Beta 15](https://github.com/flarum/emoji/releases/tag/v0.1.0-beta.15)
+    - [Emoji Picker](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) [0.3.0](https://github.com/clarkwinkelmann/flarum-ext-emojionearea/releases/tag/0.3.0)
+    - [First Post Approval](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval) [0.1.3](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval/releases/tag/0.1.3)
+    - [Emoji Picker](https://github.com/clarkwinkelmann/flarum-ext-emojionearea) [0.3.0](https://github.com/clarkwinkelmann/flarum-ext-emojionearea/releases/tag/0.3.0)
     - [Facebook Login](https://github.com/flarum/auth-facebook) [0.1.0 Beta 9](https://github.com/flarum/auth-facebook/releases/tag/v0.1.0-beta.9)
-    - [Flags](https://github.com/flarum/flags) [0.1.0 Beta 9](https://github.com/flarum/flags/releases/tag/v0.1.0-beta.9)
+    - [Flags](https://github.com/flarum/flags) [0.1.0 Beta 15](https://github.com/flarum/flags/releases/tag/v0.1.0-beta.15)
     - [GitHub Login](https://github.com/flarum/auth-github) [0.1.0 Beta 9](https://github.com/flarum/auth-github/releases/tag/v0.1.0-beta.9)
     - [Likes](https://github.com/flarum/likes) [0.1.0 Beta 9](https://github.com/flarum/likes/releases/tag/v0.1.0-beta.9)
     - [Lock](https://github.com/flarum/lock) [0.1.0 Beta 9](https://github.com/flarum/lock/releases/tag/v0.1.0-beta.9)
@@ -49,7 +58,7 @@ php flarum cache:clear
 
 1. Tải [phiên bản mới nhất tại](https://github.com/luatdolphin/lang-vietnamese/releases) (hoặc [tải phiển bản đang phát triển mới nhất tại](https://github.com/luatdolphin/lang-vietnamese/archive/master.zip)).
 2. Giải nép file bằng [a file archiver](https://en.wikipedia.org/wiki/Comparison_of_file_archivers).
-3. Truy cập vào server của bản qua [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol), [SSH](https://en.wikipedia.org/wiki/Secure_Shell) hoặc trình quản lý của bạn.
+3. Truy cập vào server của bạn qua [FTP](https://en.wikipedia.org/wiki/File_Transfer_Protocol), [SSH](https://en.wikipedia.org/wiki/Secure_Shell) hoặc trình quản lý của bạn.
 4. Mở file *composer.json* của Flarum sau đó thêm dòng "luatdolphin/lang-vietnamese": "^0.1.0@beta" bao gồm dấu nháy kép "" sau dòng *"require": {* rồi lưu lại
 5. Chuyển qua thư mục *vendor/* tại mục cài đặt của Flarum.
 6. Tạo mới thư mục con *luatdolphin/lang-vietnamese/*  trong thư mục *vendor/* .
