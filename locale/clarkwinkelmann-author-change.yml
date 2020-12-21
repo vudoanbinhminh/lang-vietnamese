@@ -5,6 +5,9 @@ clarkwinkelmann-author-change:
         modal:
             title-post: Chỉnh sửa Tác giả bài viết
             title-discussion: Chỉnh sửa Tác giả bài thảo luận
+            user: Tác giả
+            created_at: Thời gian tạo
+            edited_at: Thời gian sửa
             submit: Lưu
             cancel: Hủy
         search:
@@ -14,4 +17,5 @@ clarkwinkelmann-author-change:
 
     admin:
         permissions:
-            edit: Cập nhật tác giả thảo luận và bài viết
+            edit-user: Cập nhật tác giả thảo luận và bài đăng
+            edit-date: Cập nhật ngày của thảo luận và bài đăng
