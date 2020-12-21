@@ -6,7 +6,7 @@ Gói ngôn ngữ Tiếng việt dành cho Flarum.
 
 Gói ngôn ngữ được tương thích với những thành phần mở rộng sau:
 
-- [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 9](https://github.com/flarum/core/releases/tag/v0.1.0-beta.9)
+- [Flarum](https://github.com/flarum/core)'s Core [0.1.0 Beta 15](https://github.com/flarum/core/releases/tag/v0.1.0-beta.15)
   - Phần mở rộng:
     - [Akismet](https://github.com/flarum/akismet) [0.1.0 Beta 9](https://github.com/flarum/akismet/releases/tag/v0.1.0-beta.9)
     - [Approval](https://github.com/flarum/approval) [0.1.0 Beta 8](https://github.com/flarum/approval/releases/tag/v0.1.0-beta.8)
@@ -20,7 +20,7 @@ Gói ngôn ngữ được tương thích với những thành phần mở rộng
     - [Sticky](https://github.com/flarum/sticky) [0.1.0 Beta 9](https://github.com/flarum/sticky/releases/tag/v0.1.0-beta.9)
     - [Subscriptions](https://github.com/flarum/subscriptions) [0.1.0 Beta 9](https://github.com/flarum/subscriptions/releases/tag/v0.1.0-beta.9)
     - [Suspend](https://github.com/flarum/suspend) [0.1.0 Beta 9](https://github.com/flarum/suspend/releases/tag/v0.1.0-beta.9)
-    - [Tags](https://github.com/flarum/tags) [0.1.0 Beta 9](https://github.com/flarum/tags/releases/tag/v0.1.0-beta.9)
+    - [Tags](https://github.com/flarum/tags) [0.1.0 Beta 15](https://github.com/flarum/tags/releases/tag/v0.1.0-beta.15)
     - [Twitter Login](https://github.com/flarum/auth-twitter) [0.1.0 Beta 9](https://github.com/flarum/auth-twitter/releases/tag/v0.1.0-beta.9)
   - Các thư viện:
     - [Laravel's Validation](https://github.com/laravel/laravel) [5.8.16](https://github.com/laravel/laravel/releases/tag/v5.8.16)
