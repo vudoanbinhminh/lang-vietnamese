@@ -24,7 +24,7 @@ flarum-tags:
       name_placeholder: => flarum-tags.ref.name
       slug_label: Slug
       submit_button: => core.ref.save_changes
-      title: => flarum-tags.ref.create_tag
+      title: Tạo thẻ
 
     # These translations are used in the navigation bar.
     nav:
@@ -49,10 +49,11 @@ flarum-tags:
     # These translations are used in the Tags page.
     tags:
       about_tags_text: "Thẻ dùng để phân loại thảo luận. Thẻ chính giống như Loại Forum trước đây: chúng có thể sắp xếp thành hai cấp quản lý. Thẻ phụ thì không có phân cấp hay thứ tự, chỉ dùng để phân loại rõ hơn cho chủ đề."
-      create_tag_button: => flarum-tags.ref.create_tag
+      create_primary_tag_button: Tạo thẻ chính
+      create_secondary_tag_button: Tạo thẻ phụ
       primary_heading: Các thẻ chính
       secondary_heading: Các thẻ phụ
-      settings_button: Thiết lập
+      settings_heading: Thiết lập
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -110,6 +111,5 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Tạo mới thẻ
     name: Tên
     tags: Thẻ
