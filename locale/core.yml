@@ -435,6 +435,8 @@ core:
 
     # These translations are displayed as error messages.
     error:
+      dependent_extensions_message: "Không thể tắt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}"
+      missing_dependencies_message: "Không thể tắt {extension} cho đến khi các tiện ích mở rộng phụ thuộc sau bị vô hiệu hóa: {extensions}"
       generic_message: "Lỗi! Vui lòng thử tải lại trang."
       not_found_message: Yêu cầu truy cập không tìm thấy.
       permission_denied_message: Bạn không có quyền truy cập.
