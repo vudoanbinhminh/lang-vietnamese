@@ -109,8 +109,8 @@ core:
       not_sending_message: Forum hiện không gửi được email. Có thể là lỗi do trình điều khiển được chọn, hoặc do cấu hình.
       send_test_mail_button: Gửi
       send_test_mail_heading: Gửi Mail kiểm tra
-      send_test_mail_success: Mail kiểm tra đã gửi thành công!
-      send_test_mail_text: Thao tác này sẽ gửi một email sử dụng cấu hình trên tới email của bạn, {email}.
+      send_test_mail_success: "Mail kiểm tra đã gửi thành công!"
+      send_test_mail_text: "Thao tác này sẽ gửi một email sử dụng cấu hình trên tới email của bạn, {email}."
       smtp_heading: Thiết lập SMTP
       submit_button: => core.ref.save_changes
       text: Thay đổi thiết lập SMTP và địa chỉ để gửi email.
