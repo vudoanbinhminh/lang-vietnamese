@@ -6,14 +6,7 @@ core:
 
   # Translations in this namespace are used by the admin interface.
   admin:
-
-    # These translations are used in the placeholder Add Extension modal dialog.
-    add_extension:
-      developer_text: "Nếu bạn là nhà phát triển, vui lòng tham khảo thêm tại mục <a>tài liệu</a> và cùng xây dựng các tiện ích mở rộng."
-      install_text: "Cách khác, bạn có thể xem các tiện ích mở rộng tại <a>trang cộng đồng flarum</a> và cài đặt qua trình quản lý gói Composer."
-      temporary_text: "Các tính năng mới sẽ được cập dễ dàng trong tương lai , một hộp thoại hiện lên và cho phép bạn thêm các tiện ích một cách dễ dàng . Chúng tôi đang xây dựng hệ thống như đã nêu!"
-      title: Thêm Tiện ích
-
+  
     # These translations are used in the Appearance page.
     appearance:
       colored_header_label: Màu ở tiêu đề
@@ -26,6 +19,7 @@ core:
       custom_styles_heading: Tùy chỉnh giao diện
       custom_styles_text: Bạn có thể tùy chỉnh giao diện bằng việc thêm vào các file LESS/CSS để cải thiện giao diện trang.
       dark_mode_label: Nền tối
+      description: "Tùy chỉnh màu sắc, logo và các giá trị khác của diễn đàn."
       edit_css_button: Chỉnh sửa CSS
       edit_footer_button: => core.ref.custom_footer_title
       edit_header_button: => core.ref.custom_header_title
@@ -35,11 +29,13 @@ core:
       logo_heading: Logo
       logo_text: Tải logo lên để hiển thị thay cho tiêu đề diễn đàn.
       submit_button: => core.ref.save_changes
+      title: Giao diện
 
     # These translations are used in the Basics page.
     basics:
       all_discussions_label: => core.ref.all_discussions
       default_language_heading: Ngôn ngữ mặc định
+      description: "Đặt tiêu đề diễn đàn, ngôn ngữ và các cài đặt cơ bản khác."
       display_name_heading: Tên hiển thị
       display_name_text: Chọn trình điều khiển sử dụng để hiện tên người dùng. Tên người dùng được hiển thị mặc định.
       forum_description_heading: Mô tả về diễn đàn
@@ -50,12 +46,15 @@ core:
       saved_message: Lưu thông tin thành công.
       show_language_selector_label: Hiện chọn ngôn ngữ
       submit_button: => core.ref.save_changes
+      title: Cơ bản
       welcome_banner_heading: Lời chào
       welcome_banner_text: Thêm đoạn mô tả dùng để hiển thị cho tất cả các trang thảo luận. Dùng như lời chào mừng thành viên mới.
 
     # These translations are used in the Dashboard page.
     dashboard:
       clear_cache_button: Xóa Cache
+      description: Diễn đàn nhân trong nháy mắt.
+      title: Bảng điều khiển
       tools_button: Tools
 
     # These translations are used in the Edit Custom CSS modal dialog.
@@ -93,10 +92,10 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       addresses_heading: Địa chỉ email
+      description: "Cấu hình trình điều khiển, cài đặt và địa chỉ mà diễn đàn của bạn sẽ sử dụng để gửi email."
       driver_heading: Lựa chọn cấu hình
       driver_label: Cấu hình
       from_label: Từ
-      heading: => core.ref.email
       mail_encryption_label: Mã hóa
       mail_host_label: Máy chủ gửi đi
       mail_mailgun_domain_label: Tên miền
@@ -113,16 +112,31 @@ core:
       send_test_mail_text: "Thao tác này sẽ gửi một email sử dụng cấu hình trên tới email của bạn, {email}."
       smtp_heading: Thiết lập SMTP
       submit_button: => core.ref.save_changes
-      text: Thay đổi thiết lập SMTP và địa chỉ để gửi email.
+      title: => core.ref.email
 
-    # These translations are used in the Extensions page.
-    extensions:
-      add_button: Thêm tiện ích mở rộng
-      settings_button: => core.ref.settings
+    # These translations are used on default extension pages.
+    extension:
+      confirm_uninstall: Gỡ cài đặt sẽ xóa tất cả các cơ sở dữ liệu và nội dung liên quan đến tiện ích mở rộng. Bạn có chắc chắn muốn tiếp tục không?
+      disabled: Tắt
+      enabled: Kích hoạt
+      enable_to_see: Bật tiện ích mở rộng để xem và thay đổi cài đặt.
+      info_links:
+        discuss: Thảo luận
+        documentation: Tài liệu
+        donate: Quyên góp
+        source: Nguồn
+        support: Ủng hộ
+        website: Website
+      no_permissions: Không có quyền
+      no_settings: Không có cài đặt
+      open_modal: Mở cài đặt
+      permissions_title: Quyền
+      saved_message: Các thay đổi của bạn đã được lưu.
       uninstall_button: Gỡ bỏ
 
-    # These translations are used in the session dropdown menu.
+    # These translations are used in the secondary header.
     header:
+      get_help: Nhận trợ giúp
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.
@@ -131,18 +145,26 @@ core:
 
     # These translations are used in the navigation bar.
     nav:
-      appearance_button: Giao diện
-      appearance_text: "Tùy chỉnh màu, logo, và các tham số khác trong diễn đàn."
-      basics_button: Cơ bản
-      basics_text: "Thiết lập tiêu đề, ngôn ngũ, và thông tin khác cho diễn đàn."
-      dashboard_button: Bảng điều khiển
-      dashboard_text: Diễn đàn của bạn.
+      appearance_button: => core.admin.appearance.title
+      appearance_title: => core.admin.appearence.description
+      basics_button: => core.admin.basics.title
+      basics_title: => core.admin.basics.description
+      categories:
+        authentication: Xác thực
+        discussion: Thảo luận
+        feature: Tính năng
+        formatting: Định dạng
+        language: Ngôn ngữ
+        moderation: Moderation
+        other: Các phần mở rộng khác
+        theme: Themes
+      dashboard_button: => core.admin.dashboard.title
+      dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email
-      email_text: "Thay đổi thiết lập email."
-      extensions_button: Tiện ích mở rộng
-      extensions_text: Thêm các tiện ích mở rộng vào diễn đàn.
-      permissions_button: Quyền truy cập
-      permissions_text: Thiết lập những người có quyền xem và thao tác.
+      email_title: => core.admin.email.description
+      permissions_button: => core.admin.permissions.title
+      permissions_title: => core.admin.permissions.description
+      search_placeholder: Search Extensions
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -153,6 +175,7 @@ core:
       delete_discussions_label: Xóa cuộc thảo luận
       delete_posts_forever_label: Xóa bài viết mãi mãi
       delete_posts_label: Xóa bài viết
+      description: Cấu hình ai có thể xem và làm những gì.
       edit_posts_label: Chỉnh sửa bài viết
       edit_users_label: Chỉnh sửa thành viên
       global_heading: Toàn cục
@@ -165,6 +188,7 @@ core:
       reply_to_discussions_label: Phản hồi
       sign_up_label: Đăng ký
       start_discussions_label: Tham gia thảo luận
+      title: Quyền
       view_discussions_label: Xem cuộc thảo luận
       view_hidden_groups_label: Xem danh hiệu nhóm ẩn
       view_last_seen_at_label: Luôn xem thành viên xem lần cuối
