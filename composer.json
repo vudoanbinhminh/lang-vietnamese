@@ -18,6 +18,7 @@
         },
         "flarum-extension": {
             "title": "Vietnamese",
+	    "category": "language",
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",
