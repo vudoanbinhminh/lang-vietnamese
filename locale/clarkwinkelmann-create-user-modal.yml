@@ -1,0 +1,9 @@
+clarkwinkelmann-create-user-modal:
+    admin:
+        permissions:
+            view: Xem tạo user modal
+    forum:
+        link: Tạo user mới
+        modal:
+            title: Tạo User
+            submit: Tạo User
